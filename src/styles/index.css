@@ -1,0 +1,19 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Inter:wght@300;400;500&display=swap'); */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --tanishq-red: #83272e;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  color: #222;
+  background-color: #fff;
+}
+
+h1, h2, .font-serif {
+  font-family: 'Playfair Display', Georgia, serif;
+}
